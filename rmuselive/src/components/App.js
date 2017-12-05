@@ -18,11 +18,11 @@ class App extends Component {
 
   componentWillMount() {
     const token = window.localStorage.getItem("jwt");
-    if (token) {
-      //set with agent
-      agent.setToken(token);
-    }
-    this.props.onLoad(token ? agent.Auth.current() : null, token);
+    // if (token) {
+    //   set with agent
+    //   agent.setToken(token);
+    // }
+    // this.props.onLoad(token ? agent.Auth.current() : null, token);
   }
 
   componentWillReceiveProps(nextProps) {
