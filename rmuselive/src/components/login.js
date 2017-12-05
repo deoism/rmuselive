@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-import agent from "../agent";
+//import agent from "../agent";
 import ListErrors from "./ListErrors";
 
 //any of the properties on store auth will be spread out to props of the
