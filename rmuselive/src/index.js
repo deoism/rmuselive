@@ -15,6 +15,7 @@ ReactDOM.render(
       <Route path="/" component={App}>
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/settings" component={Settings} />
       </Route>
     </Router>
   </Provider>,
